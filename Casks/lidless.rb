@@ -1,6 +1,6 @@
 cask "lidless" do
-  version "1.0.1"
-  sha256 "ec471d854998b74726857e5704300b60d1734d80d97cf9a336d90585694030e3"
+  version "1.0.2"
+  sha256 "dec94c5979a494c87691a011f84e453e94a984d722dc7c4a00a06c58b73dcbe3"
 
   url "https://github.com/sshykvlv/lidless/releases/download/v#{version}/Lidless.zip",
       verified: "github.com/sshykvlv/lidless/"
