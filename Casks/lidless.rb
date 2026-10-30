@@ -13,6 +13,8 @@ cask "lidless" do
     strategy :github_latest
   end
 
+  deprecate! date: "2026-11-19", because: "has been replaced by Lidwork on the Mac App Store"
+
   auto_updates true
   depends_on macos: :ventura
 
