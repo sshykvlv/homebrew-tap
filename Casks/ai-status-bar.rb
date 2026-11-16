@@ -1,6 +1,6 @@
 cask "ai-status-bar" do
-  version "0.1.1"
-  sha256 "eacb1564b906fc9e6b6299af9b6dbb6878bbc47b1270fb0b951ceb7a27978cdd"
+  version "0.2.0"
+  sha256 "ca5eb620599a9a225cac3232598af317456a5bd0bc78a06ff1401be336f74527"
 
   url "https://github.com/sshykvlv/ai-status-bar/releases/download/v#{version}/AIStatusBar.zip",
       verified: "github.com/sshykvlv/ai-status-bar/"
