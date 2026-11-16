@@ -6,12 +6,17 @@ Homebrew tap for [Lidless](https://lidless.ykv.lv) and other tools by [@sshykvlv
 
 ```sh
 brew install --cask sshykvlv/tap/lidless
+brew install --cask sshykvlv/tap/ai-status-bar
 ```
 
-Or tap first, then install:
+Installing by the full `sshykvlv/tap/<cask>` name also trusts that cask, so this is all you need.
+
+Or tap first and install by short name — since Homebrew 6, trust the cask before the first install
+(otherwise Homebrew refuses with "untrusted tap"; see [Tap Trust](https://docs.brew.sh/Tap-Trust)):
 
 ```sh
 brew tap sshykvlv/tap
+brew trust --cask sshykvlv/tap/lidless
 brew install --cask lidless
 ```
 
@@ -20,6 +25,7 @@ brew install --cask lidless
 | Cask | Description |
 |------|-------------|
 | [`lidless`](Casks/lidless.rb) | Menu-bar app that keeps your Mac awake with the lid closed |
+| [`ai-status-bar`](Casks/ai-status-bar.rb) | Menu-bar app showing remaining Claude and Codex usage, plus what's slowing your Mac |
 
 ## Uninstall
 
